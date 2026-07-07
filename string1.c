@@ -81,11 +81,11 @@ int main (){
             }  
         } 
         if (achou == false){
-            printf("Não encontrado! A frase menor não encaixa na frase maior");
+            printf("Nao encontrado! A frase menor nao encaixa na frase maior \n");
         }
     } else{
         // caso as duas frases tenham exatamente o mesmo tamanho
-        printf("As frases: \n %s \n %s \n sao do mesmo tamanho!", fraseA, fraseB);
+        printf("As frases: \n %s \n %s \n sao do mesmo tamanho! \n", fraseA, fraseB);
     } 
 
     // Q2: VERIFICA SE ALGUMA PALAVRA DE A APARECE EM B 
@@ -112,7 +112,7 @@ int main (){
                    } 
                 }
                 if (palavra_achou == true){
-                    printf("A palavra %s foi encontrada na frase \n %s ", palavra, fraseB);
+                    printf("A palavra %s foi encontrada na frase \n %s  \n", palavra, fraseB);
                     break;
                 }
             }
